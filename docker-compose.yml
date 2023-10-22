@@ -1,0 +1,18 @@
+version: '1'
+services:
+  ubuntu:
+    image: qingjiegong/ubuntu1604
+  binwalk:
+    image: qingjiegong/binwalk:noentry
+  qemu-system-mips:
+    image: qingjiegong/qemu-system:mips
+  qemu-system-mipsel:
+    image: qingjiegong/qemu-system:mipsel
+  qemu-system-armel:
+    image: qingjiegong/qemu-system:armel
+  qemu-system-armhf:
+    image: qingjiegong/qemu-system:armhf
+  firmae:
+    image: qingjiegong/firmae
+  firmadyne:
+    image: qingjiegong/firmadyne
